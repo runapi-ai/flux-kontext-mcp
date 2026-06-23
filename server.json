@@ -1,17 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.runapi-builder/flux-kontext-mcp",
-  "description": "RunAPI MCP server for the Flux Kontext model line — create tasks, poll status, and check pricing with one API key.",
+  "description": "RunAPI MCP server for Flux Kontext: create tasks, poll status, and check pricing.",
   "repository": {
     "url": "https://github.com/runapi-ai/flux-kontext-mcp",
     "source": "github"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@runapi.ai/flux-kontext-mcp",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "transport": {
         "type": "stdio"
       },
