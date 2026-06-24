@@ -1,7 +1,7 @@
 {
   "name": "@runapi.ai/flux-kontext-mcp",
-  "version": "0.1.2",
-  "description": "RunAPI MCP server for one model line: create tasks, poll status, and check pricing with one API key.",
+  "version": "0.1.3",
+  "description": "Flux Kontext MCP server for RunAPI — create Flux Kontext AI tasks (text to image), poll status, and check pricing across 2 models with one API key.",
   "type": "module",
   "main": "dist/src/index.js",
   "bin": {
@@ -27,7 +27,14 @@
     "runapi",
     "mcp",
     "model-context-protocol",
-    "ai"
+    "ai",
+    "flux-kontext",
+    "flux-kontext-mcp",
+    "flux-kontext-ai",
+    "flux-kontext-api",
+    "image-generation",
+    "ai-image",
+    "text-to-image"
   ],
   "author": "RunAPI",
   "license": "Apache-2.0",
@@ -44,7 +51,7 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
-    "@runapi.ai/mcp-core": "0.1.1",
+    "@runapi.ai/mcp-core": "0.1.2",
     "zod": "^3.25.76"
   },
   "devDependencies": {
