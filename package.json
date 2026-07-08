@@ -1,6 +1,6 @@
 {
   "name": "@runapi.ai/flux-kontext-mcp",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "RunAPI Flux Kontext MCP server for image generation: create tasks, poll results, and check pricing across 2 model variants from Claude Code, Codex, Cursor, and VS Code.",
   "type": "module",
   "main": "dist/src/index.js",
