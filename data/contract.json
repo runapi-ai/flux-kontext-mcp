@@ -23,11 +23,8 @@
             "required": true,
             "description": "Image description (English only)."
           },
-          "watermark": {
-            "type": "string",
-            "description": "Watermark identifier."
-          },
           "aspect_ratio": {
+            "type": "string",
             "enum": [
               "21:9",
               "16:9",
@@ -36,24 +33,15 @@
               "3:4",
               "9:16"
             ],
-            "type": "string",
             "description": "Output aspect ratio. Default: 16:9."
           },
-          "callback_url": {
-            "type": "string",
-            "description": "Webhook URL for async notifications."
-          },
           "output_format": {
+            "type": "string",
             "enum": [
               "jpeg",
               "png"
             ],
-            "type": "string",
             "description": "Output format. Default: jpeg."
-          },
-          "safety_tolerance": {
-            "type": "integer",
-            "description": "Content safety threshold. 0-6 for generation, 0-2 for editing. Default: 2."
           },
           "source_image_url": {
             "type": "string",
@@ -66,6 +54,18 @@
           "enable_prompt_expansion": {
             "type": "boolean",
             "description": "Expand the prompt with more detail. Default: false."
+          },
+          "safety_tolerance": {
+            "type": "integer",
+            "description": "Content safety threshold. 0-6 for generation, 0-2 for editing. Default: 2."
+          },
+          "callback_url": {
+            "type": "string",
+            "description": "Webhook URL for async notifications."
+          },
+          "watermark": {
+            "type": "string",
+            "description": "Watermark identifier."
           }
         },
         "flux-kontext-pro": {
@@ -79,11 +79,8 @@
             "required": true,
             "description": "Image description (English only)."
           },
-          "watermark": {
-            "type": "string",
-            "description": "Watermark identifier."
-          },
           "aspect_ratio": {
+            "type": "string",
             "enum": [
               "21:9",
               "16:9",
@@ -92,24 +89,15 @@
               "3:4",
               "9:16"
             ],
-            "type": "string",
             "description": "Output aspect ratio. Default: 16:9."
           },
-          "callback_url": {
-            "type": "string",
-            "description": "Webhook URL for async notifications."
-          },
           "output_format": {
+            "type": "string",
             "enum": [
               "jpeg",
               "png"
             ],
-            "type": "string",
             "description": "Output format. Default: jpeg."
-          },
-          "safety_tolerance": {
-            "type": "integer",
-            "description": "Content safety threshold. 0-6 for generation, 0-2 for editing. Default: 2."
           },
           "source_image_url": {
             "type": "string",
@@ -122,6 +110,18 @@
           "enable_prompt_expansion": {
             "type": "boolean",
             "description": "Expand the prompt with more detail. Default: false."
+          },
+          "safety_tolerance": {
+            "type": "integer",
+            "description": "Content safety threshold. 0-6 for generation, 0-2 for editing. Default: 2."
+          },
+          "callback_url": {
+            "type": "string",
+            "description": "Webhook URL for async notifications."
+          },
+          "watermark": {
+            "type": "string",
+            "description": "Watermark identifier."
           }
         }
       }
