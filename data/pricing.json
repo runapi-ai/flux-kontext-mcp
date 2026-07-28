@@ -1,10 +1,10 @@
 {
   "endpoints": {
     "flux-kontext-max/text_to_image": {
-      "unit_price_cents": 10
+      "unit_price_cents": 17
     },
     "flux-kontext-pro/text_to_image": {
-      "unit_price_cents": 5
+      "unit_price_cents": 11
     }
   }
 }
