@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.1.12](https://github.com/runapi-ai/flux-kontext-mcp/releases/tag/v0.1.12) - 2026-07-31
+
+### Changed
+- Resolve MCP prices from the RunAPI Price Schedule API instead of embedded package data.
+
+
 ## [v0.1.11](https://github.com/runapi-ai/flux-kontext-mcp/releases/tag/v0.1.11) - 2026-07-28
 
 ### Fixed
