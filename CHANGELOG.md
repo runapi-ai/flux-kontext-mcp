@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.1.13](https://github.com/runapi-ai/flux-kontext-mcp/releases/tag/v0.1.13) - 2026-09-16
+
+### Changed
+- Regenerate the server from the shared MCP core so tool routing matches the published public path of each action.
+
+
 ## [v0.1.12](https://github.com/runapi-ai/flux-kontext-mcp/releases/tag/v0.1.12) - 2026-07-31
 
 ### Changed
