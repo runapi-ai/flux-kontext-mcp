@@ -1,6 +1,6 @@
 {
   "name": "@runapi.ai/flux-kontext-mcp",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "RunAPI Flux Kontext MCP server for image generation: create tasks, poll results, and check pricing across 2 model variants from Claude Code, Codex, Cursor, and VS Code.",
   "type": "module",
   "main": "dist/src/index.js",
@@ -53,8 +53,8 @@
     "node": ">=22.0.0"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.29.0",
-    "@runapi.ai/mcp-core": "0.6.0",
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "@runapi.ai/mcp-core": "0.6.1",
     "zod": "^3.25.76"
   },
   "devDependencies": {

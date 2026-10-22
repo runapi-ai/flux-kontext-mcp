@@ -1,5 +1,5 @@
 export const META = {
   name: "@runapi.ai/flux-kontext-mcp",
-  version: "0.2.1",
+  version: "0.2.2",
   lineSlug: "flux-kontext"
 } as const;
